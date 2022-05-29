@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вивчаємо Output</title>
+</head>
+<body>
+    <form oninput="result.value=parseInt(a.value)/100*parseInt(b.value)">
+        <div><input type="number" name="b" value="" /> %
+        </div>
+        <div><input type="number" name="a" value="" />від числа =
+        </div>
+        <output name="result"></output>
+      </form>
+    </br>
+
+    <form oninput="result.value=parseInt(a.value)*parseInt(b.value)">
+        <div><input type="number" name="a" value="" /> число
+        </div>
+        <div><input type="number" name="b" value="" />% від 100% =
+        </div>
+        <output name="result"></output>
+    </form>
+  
+</body>
+</html>
